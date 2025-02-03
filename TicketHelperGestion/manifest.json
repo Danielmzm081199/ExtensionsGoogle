@@ -1,28 +1,33 @@
 {
-    "manifest_version": 3,
-    "name": "Ticket Helper",
-    "description":"Ahorra tiempo con tu portapapeles online",
-    "version": "1.0",
-    "permissions": [
+  "manifest_version": 3,
+  "name": "Ticket Helper Licenciamiento",
+  "description": "Ahorra tiempo con tu portapapeles online para el módulo Licenciamiento",
+  "version": "2.0",
+  "permissions": [
       "clipboardWrite",
       "clipboardRead"
-    ],
-    "action": {
+  ],
+  "action": {
       "default_popup": "popup.html",
-      "default_icon": "image.png"
-    },
-    "icons": {
-     
-      "32": "image.png"
-      
-    },
-    "host_permissions": [
+      "default_icon": {
+          "16": "image.png",
+          "32": "image.png",
+          "48": "image.png",
+          "128": "image.png"
+      }
+  },
+  "icons": {
+      "16": "image.png",
+      "32": "image.png",
+      "48": "image.png",
+      "128": "image.png"
+  },
+  "host_permissions": [
       "http://*/*",
       "https://*/*"
-    ],
-    "content_security_policy": {
+  ],
+  "content_security_policy": {
       "script-src": "'self'",
       "object-src": "'self'"
-    }
   }
-  
+}
