@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticket Helper</title>
+    <script src="popup.js" defer></script>
+    <meta charset="UTF-8">
+    <style>
+        /* Estilos para los botones */
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Estilo para el botón Solicitar Info */
+        .asigLic {
+            background-color: #ff00a2; /* Color de fondo */
+            color: white; /* Color del texto */
+        }
+
+        .asigLic:hover {
+            background-color: #dd1eca; /* Cambio al pasar el ratón */
+        }
+
+        /* Estilo para el botón Cerrar Ticket */
+        .closeButton {
+            background-color: #f44336; /* Color de fondo */
+            color: white; /* Color del texto */
+        }
+
+        .closeButton:hover {
+            background-color: #e53935; /* Cambio al pasar el ratón */
+        }
+
+        /* Estilo para el botón Trasladar Ticket */
+        .transferButton {
+            background-color: #2196F3; /* Color de fondo */
+            color: white; /* Color del texto */
+        }
+
+        .transferButton:hover {
+            background-color: #1976D2; /* Cambio al pasar el ratón */
+        }
+
+        /* Estilo para el botón Usuario de Referencia */
+        .transferSiButton {
+            background-color: #FFC107; /* Color de fondo */
+            color: black; /* Color del texto */
+        }
+
+        .transferSiButton:hover {
+            background-color: #FFB300; /* Cambio al pasar el ratón */
+        }
+        /* ------------------------------------------------------------------------------------ */
+    /* Estilo para el botón Usuario de Referencia */
+         .deleteUserButton {
+            background-color: #ff0000; /* Color de fondo */
+            color: black; /* Color del texto */
+        }
+
+        .deleteUserButton:hover {
+            background-color: #b82a2a; /* Cambio al pasar el ratón */
+        }
+
+        .createUserButton {
+            background-color: #0011ff; /* Color de fondo */
+            color: white; /* Color del texto */
+        }
+
+        .createUserButton:hover {
+            background-color: #2a4f9e; /* Cambio al pasar el ratón */
+        }
+
+        .permiCola {
+            background-color: #33ff00; /* Color de fondo */
+            color: black; /* Color del texto */
+        }
+
+        .permiCola:hover {
+            background-color: #409426; /* Cambio al pasar el ratón */
+        }
+
+        .permiUser {
+            background-color: #f700ff; /* Color de fondo */
+            color: black; /* Color del texto */
+        }
+
+        .permiUser:hover {
+            background-color: #b8247a; /* Cambio al pasar el ratón */
+        }
+
+        .changePriority {
+            background-color: #00ff6a; /* Color de fondo */
+            color: black; /* Color del texto */
+        }
+
+        .changePriority:hover {
+            background-color: #4c9c38; /* Cambio al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <h3>Selecciona un mensaje:</h3>
+    <button class="asigLic">Asignar licencia Office 365</button>
+    <button class="closeButton">Retiro licencia Office 365 </button>
+
+    <button class="transferButton">Trasladar Licencia Office 365</button>
+    <button class="transferSiButton">Trasladar si hay User(Office 365 recuperada)</button>
+
+    <button class="deleteUserButton">Eliminar User</button>
+    <button class="createUserButton">Crear User</button>
+    <button class="permiCola">Permisos Users</button>
+    <button class="permiUser">IT&Libre</button>
+    <button class="changePriority">Cambio de prioridad </button>
+</body>
+</html>
