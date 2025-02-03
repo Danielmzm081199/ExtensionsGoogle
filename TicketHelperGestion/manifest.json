@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Ticket Helper Licenciamiento",
-  "description": "Ahorra tiempo con tu portapapeles online para el módulo Licenciamiento",
-  "version": "2.0",
+  "description": "Ahorra tiempo con tu portapapeles online para el módulo Gestion",
+  "version": "1.0",
   "permissions": [
       "clipboardWrite",
       "clipboardRead"
